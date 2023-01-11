@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        // Проверьте, что переменная num1 равна или меньше 1, а переменная num2 больше или равна 3.
+
+        let num1 = prompt('Введите число1:')
+        let num2 = prompt('Введите число2:')
+
+        if (num1 <= 1 && num2 >= 3) {
+            alert('Всё получилось');
+        }
+        else {
+            alert('Подумай ещё');
+        }
+
+        // let test = true;
+        // if (test === true) {
+        //     console.log('+++');
+        // } else {
+        //     console.log('---');
+        // }
+
+        let test = true;
+        (test === true) ? console.log('+++') : console.log('---');
+
+        // В переменной day лежит какое-то число из интервала от 1 до 31. Определите в какую декаду месяца попадает это число (в первую, вторую или третью).
+
+        let day = prompt('Введите число от 1 до 31:')
+
+        if (10 >= day && day >= 1) {
+            alert('Первая декада');
+        }
+        if (20 >= day && day >= 11) {
+            alert('Вторая декада');
+        }
+        if (31 >= day && day >= 21) {
+            alert('Третья декада');
+        }
+        if (10000 >= day && day >= 32) {
+            alert('Слишком много');
+        }
+
+    </script>
+
+</body>
+
+</html>
